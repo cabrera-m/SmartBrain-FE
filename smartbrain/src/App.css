@@ -1,0 +1,16 @@
+/* 
+ * Class:.App
+ * This class is used to center-align the text in the application.
+ */
+ .App {
+  text-align: center;
+}
+
+/* 
+ * Class:.center
+ * This class is used to horizontally center the content using flexbox.
+ */
+.center {
+  display: flex;
+  justify-content: center;
+}

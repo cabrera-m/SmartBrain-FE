@@ -1,0 +1,5 @@
+/* Define an error message class with bold font weight and red color */
+.errorMessage {
+    font-weight: bold; /* Set font weight to bold */
+    color: red; /* Set color to red */
+}

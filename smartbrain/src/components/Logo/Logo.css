@@ -1,0 +1,8 @@
+/* 
+ * The following CSS class, named '.Tilt', applies a background with a linear gradient effect.
+ * The gradient transitions from a color of #B4C424 (a shade of green) at 0% to #48D1CC (a shade of cyan) at 100%.
+ * This creates a visually appealing and dynamic background effect.
+ */
+ .Tilt {
+    background: linear-gradient(89deg, #B4C424 0%, #48D1CC 100%);
+}

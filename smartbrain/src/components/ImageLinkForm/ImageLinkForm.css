@@ -1,0 +1,36 @@
+/* 
+    CSS class for a form with a width of 700px and a custom background.
+    The background is created using multiple radial and linear gradients,
+    resulting in a pattern of purple and white stripes with a purple base color.
+*/
+.form {
+    width: 700px;
+    background:
+    /* Gradient for the first layer of purple stripes */
+    radial-gradient(circle farthest-side at 0% 50%,#9966CC 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    /* Gradient for the second layer of purple stripes */
+    radial-gradient(circle farthest-side at 0% 50%,#fff 24%,rgba(240,166,17,0) 0)19px 30px,
+    /* Gradient for the purple base color */
+    linear-gradient(#9966CC 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#9966CC 0)0 0,
+    /* Gradient for the white stripes */
+    linear-gradient(150deg,#9966CC 24%,#fff 0,#fff 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#fff 0,#fff 76%,#9966CC 0)0 0,
+    linear-gradient(30deg,#9966CC 24%,#fff 0,#fff 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#fff 0,#fff 76%,#9966CC 0)0 0,
+    linear-gradient(90deg,#fff 2%,#9966CC 0,#9966CC 98%,#fff 0%)0 0 #9966CC;
+    background-size: 40px 60px;
+}
+
+/* 
+    CSS class for a button with a cursor pointer and a border radius of 7px.
+    The button will also have a hover effect that scales it up by 5%.
+*/
+button {
+    cursor: pointer ;
+    border-radius: 7px;
+}
+
+/* 
+    CSS class for the hover effect of the button, which scales it up by 5%.
+*/
+button:hover {
+    transform: scale(105%);
+}

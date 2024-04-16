@@ -1,0 +1,33 @@
+/* 
+ * CSS class for creating a bounding box with a centered, shadowed border.
+ * 
+ * The 'position' property is set to 'absolute' to allow the box to be positioned
+ * relative to its nearest positioned ancestor or to the initial containing block.
+ * 
+ * The 'box-shadow' property is used to create a shadow effect around the box,
+ * with a 3px-wide blue (#149df2) shadow inset within the box.
+ * 
+ * The 'display' property is set to 'flex' to enable a flexible box layout model,
+ * allowing the box's children to be laid out in a flexible manner.
+ * 
+ * The 'flex-wrap' property is set to 'wrap' to allow the box's children to wrap
+ * onto multiple lines if necessary.
+ * 
+ * The 'justify-content' property is set to 'center' to align the box's children
+ * along the horizontal axis, centering them within the box.
+ * 
+ * The 'cursor' property is set to 'pointer' to indicate that the box is clickable.
+ */
+ .bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+}
